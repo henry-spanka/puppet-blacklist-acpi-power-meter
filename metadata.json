@@ -1,0 +1,23 @@
+{
+  "name": "henryspanka-blacklist_acpi_power_meter",
+  "version": "0.1.0",
+  "author": "Henry Spanka",
+  "summary": "Blacklist ACPI Power Meter Module",
+  "license": "Apache-2.0",
+  "source": "",
+  "project_page": null,
+  "issues_url": null,
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"},
+    {"name":"camptocamp-kmod","version_requirement":">= 2.2.0"}
+  ],
+  "operatingsystem_support": [
+  {
+      "operatingsystem": "RedHat",
+      "operatingsystemrelease": [
+          "7"
+      ]
+  }
+],
+  "data_provider": null
+}
